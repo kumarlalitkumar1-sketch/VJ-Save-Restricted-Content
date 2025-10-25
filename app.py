@@ -4,7 +4,7 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = os.environ.get("7644598531:AAEBn6RMNG7yriD0ymtD5YONy-fJbhvYtzE")
 
 @app.route('/')
 def home():
